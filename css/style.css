@@ -1,0 +1,48 @@
+header{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  
+}
+
+nav{
+ margin: auto;
+  
+}
+
+#hero{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner{
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner img{
+  vertical-align: middle;
+}
+
+#Featured{
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Featured img{
+  align-content: left;
+  float: left;
+}
+
+#Featured p{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+}
