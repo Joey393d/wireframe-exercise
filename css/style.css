@@ -1,9 +1,14 @@
+html{
+  background-color: #a0c4ff;
+}
+
+
 header{
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: aqua;
-  
+  background-color: #fdffb6;
+  margin-bottom: 20px;
 }
 
 nav{
@@ -22,27 +27,42 @@ nav{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 #banner img{
   vertical-align: middle;
+  margin:20px;
 }
 
 #Featured{
-  padding: 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#Featured img{
-  align-content: left;
-  float: left;
-}
+
 
 #Featured p{
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  float: right;
+  padding-left: 20px;
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+
+a:hover{
+  background-color:#ffadad;
+}
+
+a {
+  background-color: #ffd6a5;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+footer {
+  height: 90px;
+  width: 100%;
+  background-color: #fdffb6;
+  margin-top: 20px;
 }
